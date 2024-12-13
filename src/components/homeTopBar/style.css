@@ -1,0 +1,109 @@
+
+/* ---------------------section home--------------*/
+
+.home-image {
+
+    background-image: url(../../FRONT/image/home.png);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.home-conteiner {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    max-width: 450px;
+    margin-left: 150px;
+    text-align: left;
+    padding: 40px;
+    
+}
+
+/* mobile-version */
+
+.home-mobile {
+
+    display: none;
+    background-color: #E9EBEB;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+.home-conteiner-mobile {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    max-width: 450px;
+   
+    text-align: left;
+    padding: 40px;
+    
+}
+/* mobile-version */
+
+
+.home-text {
+
+    margin-bottom: 40px;
+    max-width: 350px;
+   
+
+
+}
+
+
+.home-items p{
+
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 20%;
+    color:#E77B2D;
+    text-transform: uppercase;
+}
+.home-description h1 {
+
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px;
+    color: #282E33;
+
+
+}
+
+.home-text h2{
+
+
+    font-weight: 700;
+    font-size: 23px;
+    opacity: 60%;
+    color: #282E3399;
+
+
+}
+
+.home-btn {
+
+    width: 312px;
+    height: 60px;
+    border-radius: 30px; /* Округляет углы */
+    background-color: #E77B2D; /* Цвет кнопки */
+    color: #E9EBEB; /* Цвет текста */
+    border: none; /* Убирает рамку */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer;
+    margin-top: 20px;
+    line-height: 33,5px;
+    letter-spacing: 5px;
+
+}
+/* ---------------------section home--------------*/

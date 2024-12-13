@@ -1,0 +1,90 @@
+/* ---------------------showroom--------------*/
+
+
+.showroom-conteiner {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EBEB;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.showroom-conteiner_card {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+
+
+
+}
+
+.showroom-card {
+
+    /* background-image:url(../../FRONT/image/showroom-1.png); */
+    width: 521px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+
+
+}
+.showroom-item {
+
+    display: flex;
+    justify-content: flex-start; /* Прижимаем к левому краю */
+    align-items: flex-start; 
+
+
+}
+.card-conteiner {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    max-height: 100px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 20px;
+
+}
+.showroom-item h5 {
+
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.showroom-description p{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5%;
+    color: #282E33;
+
+   
+
+}
+.text-block_item-showroom p{
+
+    font-weight: 900;
+    font-size: 18px;
+    color: #282E3399;
+    text-transform: uppercase;
+    opacity: 60%;
+
+
+}
+/* ---------------------showroom--------------*/

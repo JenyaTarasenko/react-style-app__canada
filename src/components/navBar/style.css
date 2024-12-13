@@ -1,0 +1,59 @@
+
+
+/* ---------------------меню--------------*/
+/* верхнее меню */
+.conteiner-top-head {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #282E33;
+    height: 100px;
+    padding: 30px;
+    align-items: center;
+}
+
+.top-header_logo {
+
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.top-header_telephone {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+.telephone-header {
+
+    font-size: 35px;
+
+}
+/* верхнее меню */
+
+
+
+
+/* меню  bootstrap */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Размер шрифта */
+    font-weight: 700; /* Полужирный текст */
+    text-transform: uppercase;
+    color: #E9EBEB;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #E77B2D;
+   
+}    
+
+.navbar-nav .nav-item {
+    margin-right: 30px; /* Отступ между пунктами */
+  }
+
+/* меню  bootstrap */
+
+/* ---------------------меню--------------*/

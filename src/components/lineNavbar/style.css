@@ -1,0 +1,11 @@
+/* меню линии */
+
+.horizontal-bar {
+
+    width: 100%;
+    height: 1px; /* Высота полосы */
+    background-color: #E77B2D; /* Цвет полосы */
+    margin: 0 auto; 
+
+}
+/* меню линии */

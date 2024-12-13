@@ -1,0 +1,132 @@
+/* ---------------------form--------------*/
+.form {
+    background-image: url(../../FRONT/image/backgraund-service.png);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+.text-form-top-mobile {
+
+    display: none;
+
+
+}
+.text-form-top-mobile h5 {
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.conteiner-form {
+
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  
+}
+.text-service__block-mobile {
+
+    display: none;
+   
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    
+
+
+}
+.text-block_item-mobile p{
+
+
+    font-weight: 900;
+    font-size: 18px;
+    color: #282E3399;
+    text-transform: uppercase;
+ 
+
+}
+
+.form-row-left {
+
+    margin-top: 30px;
+}
+.form-row-right {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.form-row {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.form-field {
+
+    width: 380px;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #7EA2B0;
+
+}
+.large-field {
+
+    width: 778px;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #7EA2B0;
+
+
+}
+input::placeholder {
+
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 30px;
+    color:#E9EBEB;
+    letter-spacing: 1px;
+    padding-left:40px;
+}
+
+.form-row-left h5 {
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.home-btn {
+
+    width: 312px;
+    height: 60px;
+    border-radius: 30px; /* Округляет углы */
+    background-color: #E77B2D; /* Цвет кнопки */
+    color: #E9EBEB; /* Цвет текста */
+    border: none; /* Убирает рамку */
+    font-size: 16px; /* Размер текста */
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    line-height: 33,5px;
+    
+
+
+}
+
+
+/* ---------------------form--------------*/

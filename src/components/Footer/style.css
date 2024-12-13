@@ -1,0 +1,85 @@
+
+
+/* ---------------------footer--------------*/
+.footer-conteiner {
+
+    /* display: flex;
+    flex-direction: row; */
+   
+}
+.footer-image {
+
+    background-image: url(../../FRONT/image/footer-destop\ 2.png);
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    flex-direction: row;
+
+
+}
+.footer-logo {
+
+    background-image: url(../../FRONT/image/canada-logo.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+
+
+}
+.footer-description {
+
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin-left: 700px;
+  
+
+
+
+}
+.footer-tel {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.footer-tel-column {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer-text {
+
+    color: #E77B2D;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.telephone-footer {
+
+    color: #282E33;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+.footer-mars p{
+
+    color: #2E3F7F;
+    font-weight: 900;
+    font-size: 18px;
+
+
+}
+.footer-mars {
+
+    margin-top: 150px;
+}
+/* ---------------------footer--------------*/
