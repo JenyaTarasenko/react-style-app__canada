@@ -43,7 +43,7 @@ function NavbarNavTop () {
                     <a className="nav-link" href="about/">About Us</a>
                 </li>
                 <li classN="nav-item">
-                    <a className="nav-link" href="#">Services</a>
+                    <a className="nav-link" href="servis/">Services</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Showroom</a>

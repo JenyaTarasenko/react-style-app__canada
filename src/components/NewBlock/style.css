@@ -1,0 +1,198 @@
+
+/* -  new-page -- */
+
+.new-page {
+
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+    justify-content: center;
+
+}
+.new-page-image {
+
+    background-image: url(../../FRONT/image/detail-card__destop.png);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.substrate-mobile{
+
+    width: 480px;
+    height: 1050px;
+    background-color: rgba(231, 123, 45, 1);
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin-top: 100px;
+    border-radius: 30px;
+    padding: 30px;
+ 
+
+}
+
+/* подложка  mobil*/
+.substrate-mobile-section {
+
+    display: none;
+    justify-content: center;
+
+
+}
+
+.substrate-mobile-conteiner{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.substrate-mobile-card {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.substrate-mobile-item {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:120px;
+}
+.substrate-mobile-item h6 {
+
+    font-weight: 900;
+    font-size: 35px;
+    color:#282E33;
+}
+.substrate-mobile-item img {
+
+    width: 78px;
+    height: 78px;
+
+
+}
+.substrate-mobile-description {
+
+    display: flex;
+    width: 340px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.substrate-mobile-description p {
+
+    font-size: 28px;
+    font-weight: 300;
+}
+.substrate-mobile-line {
+
+    width: 350px; /* Длина линии */
+    height: 1px;  /* Толщина линии */
+    background-color: #D9D9D9; /* Цвет линии */
+    margin: 20px 0; /* Отступы сверху и снизу */
+  
+    
+
+
+}
+/* подложка  mobil*/
+
+/* подложка */
+.substrate {
+
+    width: 1104px;
+    height: 220px;
+    border-radius: 30px;
+    background-color: rgba(231, 123, 45, 1);
+    display: flex;
+    /* align-items: center; */
+    background-size: cover;
+    background-position: center;
+    /* justify-content: center; */
+    position: absolute;
+    z-index: 2;
+    margin-top: 650px;
+    flex-direction: column;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+ 
+ 
+}
+.substrate-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+
+}
+.new-page-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.new-page-text p{
+
+    font-weight: 900;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 100%;
+    margin-bottom: 40px;
+}
+.substrate-conteiner-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 270px;
+    height: 100px;
+}
+.substrate-conteiner-items h4{
+
+    font-weight: 900;
+    font-size: 23px;
+    color:#282E33;
+
+}
+.substrate-conteiner-items p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color:#FFFFFF;
+}
+.substrate-conteiner-card img {
+
+    width: 80px;
+    height: 80px;
+}
+.substrate-conteiner-items {
+
+    display: flex;
+    justify-content: center;
+   
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+/* подложка */
+/* -  new-page -- */
+
